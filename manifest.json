@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Redirect .io to Google",
+  "version": "1.0",
+  "description": "Redirects any .io website to Google",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
